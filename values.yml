@@ -2,3 +2,5 @@ gitProvider: github
 artifactory: arti
 repoPath: SaiKUndurthi/jfrog-pipelines-maven-sample
 deployerRepo: n-libs-release-local
+resolverReleaseRepo: n-libs-release
+resolverSnapshotRepo: n-libs-snapshot
