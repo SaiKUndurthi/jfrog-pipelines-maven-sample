@@ -21,6 +21,8 @@ pipelines:
         configuration:
           deployerSnapshotRepo: {{ .Values.deployerRepo }}
           deployerReleaseRepo: {{ .Values.deployerRepo }}
+          resolverSnapshotRepo:  {{ .Values.resolverSnapshotRepo }}
+          resolverReleaseRepo:  {{ .Values.resolverReleaseRepo }}
           inputResources:
             - name: mvn_repo
           integrations:
